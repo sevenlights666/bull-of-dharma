@@ -1,0 +1,47 @@
+body {
+  background-color: blue;
+}
+
+.circleContainer {
+  font-size: 27px;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.scales {
+  display: none;
+  position: fixed;
+  margin-top: 90px;
+  width: 40%;
+}
+
+.cMajor, .gFlatMajor {
+}
+
+.cScale {
+
+}
+
+.fMajor, .gMajor, .dFlatMajor, .bMajor {
+  display: inline-block;
+  width: 25%;
+}
+
+.bFlatMajor, .dMajor, .aFlatMajor, .eMajor {
+  display: inline-block;
+  width: 45%;
+}
+
+.eFlatMajor {
+  display: inline-block;
+  width: 40%;
+  margin-right: 25px;
+}
+
+.aMajor {
+  display: inline-block;
+  width: 40%;
+  margin-left: 25px;
+}
