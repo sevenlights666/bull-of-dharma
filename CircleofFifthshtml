@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Music Theory Page</title>
+		<link rel="stylesheet" type="text/css"href="styles.css">
+	</head>
+
+	<body>
+		<div class="circleContainer">
+			<div class="scales cScale">CDEFGAB</div>
+			<div class="scales fScale">FGABbCDE</div>
+			<div class="scales gScale">GABCDEF#</div>
+			<div class="scales bFlatScale">BbCDEbFGA</div>
+			<div class="scales dScale">DEF#GABC#</div>
+			<div class="scales eFlatScale">EbFGAbBbCD</div>
+			<div class="scales aScale">ABC#DEF#G#</div>
+			<div class="scales aFlatScale">AbBbCDbEbFG</div>
+			<div class="scales eScale">EF#G#ABC#D#</div>
+			<div class="scales dFlatScale">DbEbFGbAbBbC</div>
+			<div class="scales bScale">BC#D#EF#G#A#</div>
+			<div class="scales gFlatScale">GbAbBbCbDbEbF/F#G#A#BC#D#E#</div>
+			
+			<div class="cMajor">
+				C
+			</div>
+
+			<div class="fMajor">
+				F
+			</div>
+
+			<div class="gMajor">
+				G
+			</div>
+			<br>
+			<div class="bFlatMajor">
+				Bb
+			</div>
+
+			<div class="dMajor">
+				D
+			</div>
+			<br>
+			<div class="eFlatMajor">
+				Eb
+			</div>
+
+			<div class="aMajor">
+				A
+			</div>
+			<br>
+			<div class="aFlatMajor">
+				Ab
+			</div>
+			
+			<div class="eMajor">
+				E
+			</div>
+			<br>
+			<div class="dFlatMajor">
+				Db
+			</div>
+
+			<div class="bMajor">
+				B
+			</div>
+			<br>
+			<div class="gFlatMajor">
+				Gb/F#
+			</div>
+		</div>
+	<script type="text/javascript"
+	src="./MusicTheory.js"></script>
+	</body>
+</html>
