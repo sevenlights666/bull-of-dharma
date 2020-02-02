@@ -1,0 +1,9 @@
+var cMajorElem = document.getElementsByClassName("cMajor")[0];
+function godShit(elem) {
+	elem.style.display = 'block';
+}
+
+cMajorElem.onclick = function() {
+	var cScalesElem = document.getElementsByClassName("cScale")[0];
+	godShit(cScalesElem)
+}
